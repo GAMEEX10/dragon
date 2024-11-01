@@ -8,17 +8,17 @@ function si(i){
     var imx = document.getElementsByClassName("imf");
     var dts = document.getElementsByClassName("d");
     
-    for(i=0; i < imx.length; i++)
+    for(i=0; i < imx.length;i++)
     imx[i].style.display = "none";
     
-    for(i=0; i < dts.length; i++)
-    dts[i].className = dts[i].className.replace("xx", "");
+    for(i=0; i < dts.length;i++)
+    dts[i].className = dts[i].className.replace(" xx", "");
     
-    if (index > imx.length -1)
+    if (index > imx.length - 1)
     index = 0;
     
     if (index < 0)
-    index = imx.length -1;
+    index = imx.length - 1;
    
    imx[index].style.display = "block";
    dts[index].className += " xx";

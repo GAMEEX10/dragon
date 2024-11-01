@@ -1,6 +1,6 @@
  .c{
    /* border: 1px solid black; */
-    width: 70%;
+    width: 95%;
     height: 100vh;
     margin: auto;
     display: flex;
@@ -10,7 +10,7 @@
     position: relative;
  }
  
- .imf{
+ .imx{
     display:none;
  }
  
